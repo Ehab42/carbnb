@@ -1,16 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import carIcon from './icons/5.png'; // Import the car icon PNG
-import './styles/header.css'; // Import the CSS file
+import logo from './logo/logo.png'; // Import the logo image
+import './styles/header.css';
 
 const Header = () => {
   return (
-    <div className="header"> {/* Add the "header" class to the root div element */}
-      <div className="logo">
-        <Link to="/" className="logo-link">
-          <img src={carIcon} alt="Car Icon" className="car-icon" />
-          CruiseAuto
-        </Link>
+    <div className="header">
+      <div className="left-half">
+        <div className="left-half"> {/* Change the class name to "left-half" */}
+          <Link to="/" className="logo-link">
+            <img src={logo} alt="Logo" className="car-icon" />
+          </Link> 
+        </div>
       </div>
       <nav className="navigation">
         <ul>

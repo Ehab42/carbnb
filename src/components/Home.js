@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import './styles/home.css'; // Import any CSS file for styling if needed
+// import './styles/home.css'; // Import any CSS file for styling if needed
 import Header from './Header'; // Import the Header component
 import Hero from './homeComponents/Hero'; // Import the Hero component
 import Image from './homeComponents/Image'; // Import the Image component
-import CarModels from './homeComponents/CarModels'; // Import the CarModels component
+import CarTypes from './homeComponents/CarTypes'; // Import the CarModels component
 
 const Home = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -33,7 +33,7 @@ const Home = () => {
 
       <Image isScrolled={isScrolled} />
 
-      <CarModels />
+      <CarTypes />
 
       {/* Other sections and content */}
     </div>

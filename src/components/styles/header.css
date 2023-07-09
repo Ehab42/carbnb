@@ -5,14 +5,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200;500&display=swap');
 
 .header {
-  background-color: #F9F9F9;
-  padding: 1rem 4rem; /* Add padding to the top and bottom (1rem) and left and right (2rem) */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header {
   position: fixed;
   top: 0;
   left: 0;
@@ -25,28 +17,20 @@
   align-items: center;
 }
 
-
 .left-half {
   display: flex;
   align-items: center;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-}
-
 .logo-link {
-  font-family: 'Ysabeau SC', sans-serif;
-  font-size: 2rem;
-  font-weight: bold;
-  color: #006666;
-  text-decoration: none;
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .car-icon {
+  width: 15rem; /* Adjust the width to the desired size using rem units */
+  height: 7remrem; /* Automatically adjust the height based on the width */
   margin-right: 0.5rem;
 }
 
@@ -75,13 +59,7 @@
   text-decoration: none;
 }
 
-.car-icon {
-  width: 3rem; /* Adjust the width to the desired size using rem units */
-  height: 3rem; /* Adjust the height to the desired size using rem units */
-  margin-right: 0.5rem;
-}
-
-html, body{
+html, body {
   margin: 0;
   padding: 0;
 }
