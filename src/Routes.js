@@ -5,6 +5,8 @@ import Home from './components/Home';
 import BrowseCars from './components/BrowseCars';
 import AboutUs from './components/AboutUs';
 import FAQ from './components/FAQ';
+import Footer from './components/Footer'; // Import the Footer component
+
 
 const AppRoutes = () => {
   return (
@@ -16,6 +18,8 @@ const AppRoutes = () => {
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/faq" element={<FAQ />} />
       </Routes>
+
+      <Footer />
     </Router>
   );
 };
