@@ -1,5 +1,5 @@
 import React from 'react';
-import './styles/carModels.css';
+import './styles/carTypes.css';
 import sedanImage from '../images/Cars/sedan.jpg';
 import suvImage from '../images/Cars/suv.jpg';
 import fourWheelImage from '../images/Cars/4wheel.jpg';
