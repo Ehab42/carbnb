@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1;100;200&display=swap');
+
+.image-section {
+    position: relative; /* Add position relative to the container */
+    display: flex;
+    justify-content: center;
+    background-color: #006666;
+  }
+  
+  .background-image {
+    width: 100%;
+    opacity: 0.45; /* Adjust the opacity value to control the fade effect */
+  }
+  
+  .scroll-text {
+    position: absolute; /* Position the text absolutely within the container */
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s;
+    text-align: left;
+    color: #F9F9F9; /* Set the text color */
+  }
+  
+  .scroll-text.fade-in {
+    opacity: 1;
+  }
+  
+  .scroll-title {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .scroll-description {
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+  
+  .start-browsing-button {
+    background-color: #F9F9F9;
+    color: #006666;
+    padding: 1rem 2.5rem;
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 1rem;
+  }
+  
+  .start-browsing-button:hover {
+    background-color: #006666;
+    color: #F9F9F9;
+  }
+  

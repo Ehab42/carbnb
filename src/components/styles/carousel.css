@@ -1,0 +1,55 @@
+/* styles/carousel.css */
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 400px; /* Adjust the height as desired */
+  }
+  
+  .carousel-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.5s ease;
+  }
+  
+  .carousel-content {
+    text-align: center;
+    color: #F9F9F9; /* Set the text color */
+  }
+  
+  .carousel-title {
+    font-size: 2rem; /* Adjust the font size */
+    margin-bottom: 1rem; /* Add spacing between title and description */
+  }
+  
+  .carousel-description {
+    font-size: 1.5rem; /* Adjust the font size */
+  }
+  
+  .carousel-navigation {
+    position: absolute;
+    bottom: 20px; /* Adjust the position as desired */
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .carousel-arrow {
+    font-size: 2rem; /* Adjust the font size */
+    color: #006666; /* Set the arrow color */
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 10px; /* Adjust the spacing between arrows */
+  }
+  
